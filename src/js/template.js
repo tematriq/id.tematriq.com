@@ -11,3 +11,7 @@ if (typeof var_bodyid === "undefined" ) {
    var var_bodyid = 'some_default_value';
 }
 alert(var_bodyid); // to view the variable value
+
+if(var_id != var_bodyid) {
+   alert('tidak sama')
+}
